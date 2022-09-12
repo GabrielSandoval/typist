@@ -14,7 +14,7 @@ with open('input.txt') as f:
         print(line)
         for word in line.split():
             pyautogui.typewrite(list(word), interval=random_between(0.025, 0.05))
-            time.sleep(random_between(0.025, 0.0.5))
+            time.sleep(random_between(0.05, 0.1))
             pyautogui.typewrite(' ')
         pyautogui.typewrite('\n')
-        time.sleep(random_between(0.4, 1))
+        time.sleep(random_between(0.5, 1))
