@@ -8,7 +8,7 @@ def random_between(lower, upper):
 print("STARTING IN 5 SECONDS...")
 time.sleep(5)
 
-with open('test.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
     for line in lines:
         print(line)
