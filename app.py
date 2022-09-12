@@ -13,8 +13,8 @@ with open('test.txt') as f:
     for line in lines:
         print(line)
         for word in line.split():
-            pyautogui.typewrite(list(word), interval=random_between(0.05, 0.1))
-            time.sleep(random_between(0.1, 0.2))
+            pyautogui.typewrite(list(word), interval=random_between(0.025, 0.05))
+            time.sleep(random_between(0.05, 0.1))
             pyautogui.typewrite(' ')
         pyautogui.typewrite('\n')
         time.sleep(random_between(0.4, 1))
