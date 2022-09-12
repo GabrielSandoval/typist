@@ -17,5 +17,4 @@ with open('test.txt') as f:
             pyautogui.typewrite(' ')
 
         pyautogui.typewrite('\n')
-        pyautogui.typewrite('\n')
         time.sleep(random_between(0.4, 1))
